@@ -68,17 +68,17 @@ var breakDown = function(number) {
       number -= 4;
     }
   }
-  resultArray = resultArray.join();
+  resultArray = resultArray.join("");
   return resultArray;
 };
 
 $(document).ready(function() {
-  $("form#inquiry").submit(function(event) {
+  $("form.inquiry").submit(function(event) {
     var number = parseInt($("input#userInput").val());
     var result = breakDown(number);
 
-    $("#output").append(result);
-    event.preventDefault();
+    $("#output").text(result);
+      event.preventDefault();
   });
 });
 
