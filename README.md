@@ -11,7 +11,7 @@ _This app takes an integer from the user and returns the roman numeral equivalen
 
 ## Setup/Installation Requirements
 
-1. Fork and clone this repository from [gitHub](https://github.com/MBAllely/cryptoSquare)
+1. Fork and clone this repository from [gitHub](https://github.com/MBAllely/roman-numeratorator)
 2. Open the index.html file in your browser
 
 ## Known Bugs
